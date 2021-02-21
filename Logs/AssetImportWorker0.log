@@ -12,77 +12,1725 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64560
+50570
 Successfully changed project path to: /Users/xulide/Thinking&illusion
 /Users/xulide/Thinking&illusion
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1c1 (252d8215dd99)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/xulide/Thinking&illusion/Assets
 GfxDevice: creating device client; threaded=0
-2021-02-07 20:32:41.479 Unity[2156:1743162] SFX-ARBI2X4 preferred device: AMD Radeon Pro 5300M (high power)
-2021-02-07 20:32:41.479 Unity[2156:1743162] Metal devices available: 2
-2021-02-07 20:32:41.479 Unity[2156:1743162] 0: AMD Radeon Pro 5300M (high power)
-2021-02-07 20:32:41.480 Unity[2156:1743162] 1: Intel(R) UHD Graphics 630 (low power)
-2021-02-07 20:32:41.480 Unity[2156:1743162] Using device AMD Radeon Pro 5300M (high power)
+2021-02-21 20:54:46.599 Unity[6137:71183] SFX-ARBI2X4 preferred device: AMD Radeon Pro 5300M (high power)
+2021-02-21 20:54:46.599 Unity[6137:71183] Metal devices available: 2
+2021-02-21 20:54:46.599 Unity[6137:71183] 0: AMD Radeon Pro 5300M (high power)
+2021-02-21 20:54:46.599 Unity[6137:71183] 1: Intel(R) UHD Graphics 630 (low power)
+2021-02-21 20:54:46.599 Unity[6137:71183] Using device AMD Radeon Pro 5300M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5300M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56137
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001566 seconds.
+Registered in 0.000408 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 34.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.078 seconds
+- Completed reload, in  1.501 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001405 seconds.
+Registered in 0.000531 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 31.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.03 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.048 seconds
+- Completed reload, in  0.943 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.0 MB.
-System memory in use after: 141.0 MB.
+Unloading 1957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.5 MB.
+System memory in use after: 145.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2227.
-Total: 2.499582 ms (FindLiveObjects: 0.258085 ms CreateObjectMapping: 0.108983 ms MarkObjects: 1.999531 ms  DeleteObjects: 0.131851 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Fonts
-  artifactKey: Guid(7fde4cb6953bd4a748a0db215ca1efb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts using Guid(7fde4cb6953bd4a748a0db215ca1efb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cc1d93e7381af5774341898d9d025c') in 0.004419 seconds
-  Import took 0.008335 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 2.395149 ms (FindLiveObjects: 0.257035 ms CreateObjectMapping: 0.127953 ms MarkObjects: 1.811707 ms  DeleteObjects: 0.197097 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.918429 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(1b68b736060f146c29a242c54c8fbc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(1b68b736060f146c29a242c54c8fbc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8c2fdce26b2c25064e4aa5688de09b') in 0.003623 seconds
-  Import took 0.006878 seconds .
+  path: Assets/CCGKit/Demo
+  artifactKey: Guid(5a212b22eb32ce74795749e1488688a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo using Guid(5a212b22eb32ce74795749e1488688a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09a23928dc8c1724c9607d26220a9b5') in 0.004144 seconds
+  Import took 0.007703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/CCGKit/Documentation
+  artifactKey: Guid(718ae09bf2f05fd44952c8f6ae1b02df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Documentation using Guid(718ae09bf2f05fd44952c8f6ae1b02df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71983df012a4e294e057ce37610d2431') in 0.000722 seconds
+  Import took 0.003349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/CCGKit
+  artifactKey: Guid(575235f3e60b54dc0ba55d0023e3117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit using Guid(575235f3e60b54dc0ba55d0023e3117f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd838743b6c7596d9d6437ea7e8b036e2') in 0.000694 seconds
+  Import took 0.003395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.216958 seconds.
+  path: Assets/CCGKit/Third-PartyNotice.txt
+  artifactKey: Guid(d85c60fbae4da754984d81e9836581b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Third-PartyNotice.txt using Guid(d85c60fbae4da754984d81e9836581b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d30b747cd191eb681a2445ea946bd9') in 0.319608 seconds
+  Import took 0.322830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.213208 seconds.
+  path: Assets/CCGKit/Core
+  artifactKey: Guid(8d5803de6daf5704d9eee4363b6b2a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Core using Guid(8d5803de6daf5704d9eee4363b6b2a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ebdda6e18d3a19ec77b510d2ca94e1') in 0.000990 seconds
+  Import took 0.004351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.583266 seconds.
+  path: Assets/CCGKit/Core/Scripts
+  artifactKey: Guid(922f5ed15c706aa4b8000da9da859c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Core/Scripts using Guid(922f5ed15c706aa4b8000da9da859c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c28f983cb674d2b248b7139e12b3cbe') in 0.000949 seconds
+  Import took 0.004222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.940680 seconds.
+  path: Assets/CCGKit/Core/Scripts/Editor
+  artifactKey: Guid(e677e32f8f40fe24f8bccfec5096f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Core/Scripts/Editor using Guid(e677e32f8f40fe24f8bccfec5096f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdbd40a65d66cb9322f056da386ce26') in 0.000916 seconds
+  Import took 0.004064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.748469 seconds.
+  path: Assets/CCGKit/Demo/Resources
+  artifactKey: Guid(362e070df8e5ecc469e5de6b9e84ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources using Guid(362e070df8e5ecc469e5de6b9e84ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6022572952e546ebecee8eb0ccaa66a3') in 0.000974 seconds
+  Import took 0.004339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.066799 seconds.
+  path: Assets/CCGKit/Demo/Resources/PopupLoading.prefab
+  artifactKey: Guid(49b73047cb65dc948ad5734239d0a8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/PopupLoading.prefab using Guid(49b73047cb65dc948ad5734239d0a8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afb6c0c34309b7f258bba9f74d7d4cd') in 0.325433 seconds
+  Import took 0.328832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/CCGKit/Demo/Resources/PopupTwoButtons.prefab
+  artifactKey: Guid(44548eb3adb42b44bb0a5ccdf950644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/PopupTwoButtons.prefab using Guid(44548eb3adb42b44bb0a5ccdf950644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df175ab150964bf3263c179f9f69f7a') in 0.004569 seconds
+  Import took 0.007568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/CCGKit/Demo/Resources/PopupSignup.prefab
+  artifactKey: Guid(b7fd74b1e9a329f4d9eee8181bda3582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/PopupSignup.prefab using Guid(b7fd74b1e9a329f4d9eee8181bda3582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bb1cdc48af1f6164bcb40cf4ce1725') in 0.006532 seconds
+  Import took 0.009781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/CCGKit/Demo/Resources/PopupPassword.prefab
+  artifactKey: Guid(ad6550a944607f545b2eaec9082e73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/PopupPassword.prefab using Guid(ad6550a944607f545b2eaec9082e73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660f28fbe164d63839a37632b96de68c') in 0.004512 seconds
+  Import took 0.007507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/CCGKit/Demo/Resources/PopupTurnStart.prefab
+  artifactKey: Guid(765b906ffbec041a0a8d67d7f811b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/PopupTurnStart.prefab using Guid(765b906ffbec041a0a8d67d7f811b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc618bcddf0d03d51d041c20ec20937') in 0.003132 seconds
+  Import took 0.006158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/CCGKit/Demo/Resources/PopupOneButton.prefab
+  artifactKey: Guid(eaae0049aa02c4501b056b30c8faacd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/PopupOneButton.prefab using Guid(eaae0049aa02c4501b056b30c8faacd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8f7d1189757364bb8b4d965d90c7a2') in 0.004959 seconds
+  Import took 0.008113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/CCGKit/Demo/Resources/PopupLogin.prefab
+  artifactKey: Guid(52e966e81148f34489d90f5cacf7b1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/PopupLogin.prefab using Guid(52e966e81148f34489d90f5cacf7b1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4058f906368c48b3e323054f496e00a2') in 0.004469 seconds
+  Import took 0.007649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.439953 seconds.
+  path: Assets/CCGKit/Demo/Fonts/RobotoCondensed-Bold SDF.asset
+  artifactKey: Guid(fbb9f006c2a4e4b74b24742ba37884c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Fonts/RobotoCondensed-Bold SDF.asset using Guid(fbb9f006c2a4e4b74b24742ba37884c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58d2fff26600d06918747152d669bbf') in 0.424054 seconds
+  Import took 0.428760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/CCGKit/Demo/Fonts/RobotoCondensed-Regular.ttf
+  artifactKey: Guid(6da5d560f3f12443895a72258ba78433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Fonts/RobotoCondensed-Regular.ttf using Guid(6da5d560f3f12443895a72258ba78433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e22510076367fd13a25f24cdd41d9c') in 0.347656 seconds
+  Import took 0.350820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/CCGKit/Demo/Fonts/RobotoCondensed-Bold.ttf
+  artifactKey: Guid(9881d37feee3f4e65ae7e1c17308c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Fonts/RobotoCondensed-Bold.ttf using Guid(9881d37feee3f4e65ae7e1c17308c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fca97537ce4ff2f32fb9cf1cf58104') in 0.011133 seconds
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/CCGKit/Demo/Fonts/RobotoCondensed-Light.ttf
+  artifactKey: Guid(39f665f0bcc45420db79fb86a709ccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Fonts/RobotoCondensed-Light.ttf using Guid(39f665f0bcc45420db79fb86a709ccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806b0860738b5b283ecb35a01f6b73ef') in 0.010119 seconds
+  Import took 0.013478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/CCGKit/Demo/Fonts/RobotoCondensed-Regular SDF.asset
+  artifactKey: Guid(03fa9e8989fc342c291183d83ef884be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Fonts/RobotoCondensed-Regular SDF.asset using Guid(03fa9e8989fc342c291183d83ef884be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef22f5679aad0dc0548c1b855db1e72') in 0.016026 seconds
+  Import took 0.019702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/CCGKit/Demo/Fonts/RobotoCondensed-Light SDF.asset
+  artifactKey: Guid(6411651ffb5a64dc9852fe87495edc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Fonts/RobotoCondensed-Light SDF.asset using Guid(6411651ffb5a64dc9852fe87495edc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574e181c21a5faab789834c3b857aba0') in 0.015889 seconds
+  Import took 0.019670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905757 seconds.
+  path: Assets/CCGKit/Demo/Fonts/FontsLicense.txt
+  artifactKey: Guid(57617f57a4be3774eb6bbbf591e6a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Fonts/FontsLicense.txt using Guid(57617f57a4be3774eb6bbbf591e6a65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4564c101d1185dc9018b5d062f7f49') in 0.003809 seconds
+  Import took 0.007105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.658635 seconds.
+  path: Assets/CCGKit/Demo/Materials/TargetArrow.mat
+  artifactKey: Guid(d485273af9b3ac04ab7a10fb00b593a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Materials/TargetArrow.mat using Guid(d485273af9b3ac04ab7a10fb00b593a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29f8e1f8820693e068936ebecb0612d') in 0.205511 seconds
+  Import took 0.208928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/CCGKit/Demo/Materials/ZParticleMaterial.mat
+  artifactKey: Guid(f18e54bb8d264434ba94d5813fafb1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Materials/ZParticleMaterial.mat using Guid(f18e54bb8d264434ba94d5813fafb1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464f58b104a399f18f6e77a211151415') in 0.075749 seconds
+  Import took 0.078996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.582774 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/BoardCreature.prefab
+  artifactKey: Guid(69ebdb0285d64c94f96d793ceb5aa93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/BoardCreature.prefab using Guid(69ebdb0285d64c94f96d793ceb5aa93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec8c419eb158aec41210adeb96e9e5c') in 0.153221 seconds
+  Import took 0.156538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/FightTargetingArrow.prefab
+  artifactKey: Guid(220963b2578d8254bac3491a4421740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/FightTargetingArrow.prefab using Guid(220963b2578d8254bac3491a4421740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddabb036cc1b467523d2f1e5843a66ac') in 0.002151 seconds
+  Import took 0.004318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/DemoAIPlayer.prefab
+  artifactKey: Guid(64b29dcd4eafb464781d1a22d199ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/DemoAIPlayer.prefab using Guid(64b29dcd4eafb464781d1a22d199ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fda14af0b7d95d8cdfa6dc10d9b4b10') in 0.002793 seconds
+  Import took 0.005646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/CreatureCard.prefab
+  artifactKey: Guid(3e2eb5fbe61ddce49b9e848b89eed4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/CreatureCard.prefab using Guid(3e2eb5fbe61ddce49b9e848b89eed4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19222a99286496b3d3be2d52eb55ed72') in 0.014363 seconds
+  Import took 0.017605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/PopupChat.prefab
+  artifactKey: Guid(e90258f3e0f8d944cbbef21ab82e044f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/PopupChat.prefab using Guid(e90258f3e0f8d944cbbef21ab82e044f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e315fa93da49dffe21f3affc9c1d0bc') in 0.019956 seconds
+  Import took 0.023238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/OpponentTargetingArrow.prefab
+  artifactKey: Guid(3a431f6b2d6393d4e806cd54fbe3bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/OpponentTargetingArrow.prefab using Guid(3a431f6b2d6393d4e806cd54fbe3bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af257d45cd10c12ced592d07baabfbe9') in 0.002625 seconds
+  Import took 0.005658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/SpellTargetingArrow.prefab
+  artifactKey: Guid(2cc2976954c9cd1489185931d562ad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/SpellTargetingArrow.prefab using Guid(2cc2976954c9cd1489185931d562ad97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f4960c372384aa48962d61d4ea5074') in 0.002569 seconds
+  Import took 0.005717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/CardListItem.prefab
+  artifactKey: Guid(ad3dcf829ffbf41cf8cc1a4e4987424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/CardListItem.prefab using Guid(ad3dcf829ffbf41cf8cc1a4e4987424d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1280290a3091c82b71dc3680507b23') in 0.005032 seconds
+  Import took 0.008266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/ChatTextLine.prefab
+  artifactKey: Guid(f2fff6b4975ad97458b2a045ad65cfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/ChatTextLine.prefab using Guid(f2fff6b4975ad97458b2a045ad65cfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa909fb08de031a1628da2133994ef1e') in 0.002659 seconds
+  Import took 0.005911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/DemoPlayer.prefab
+  artifactKey: Guid(45a01629bfe611f449fc6b19354b0877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/DemoPlayer.prefab using Guid(45a01629bfe611f449fc6b19354b0877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7081154ead03da4ed5eb80f057e0d92e') in 0.002678 seconds
+  Import took 0.005917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/OpponentCard.prefab
+  artifactKey: Guid(c2e085de934874c5a876cabfe24a44c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/OpponentCard.prefab using Guid(c2e085de934874c5a876cabfe24a44c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebf278a7256ddf4ac010f3ab416cb62') in 0.008167 seconds
+  Import took 0.011539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/GameListItem.prefab
+  artifactKey: Guid(858129deeed264f6bb6a92782b04abec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/GameListItem.prefab using Guid(858129deeed264f6bb6a92782b04abec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def9640dcdb42f507aac03fdf755a4c9') in 0.010130 seconds
+  Import took 0.013278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/SpellCard.prefab
+  artifactKey: Guid(d74a1cb162a060d459abb43b4cc47cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/SpellCard.prefab using Guid(d74a1cb162a060d459abb43b4cc47cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64e7d3abbaa8178d7457c153086c664') in 0.012521 seconds
+  Import took 0.015804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/DeckItem.prefab
+  artifactKey: Guid(a6e904877df8949ddb880fd4517707dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/DeckItem.prefab using Guid(a6e904877df8949ddb880fd4517707dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7575f28bb0c39d944d14b4897400d04c') in 0.004193 seconds
+  Import took 0.007344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/CardDeckAmountBox.prefab
+  artifactKey: Guid(ffb03cc8d164f408797d77f8f7786005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/CardDeckAmountBox.prefab using Guid(ffb03cc8d164f408797d77f8f7786005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e54129d914647d8c39d1864b40d0bd') in 0.007111 seconds
+  Import took 0.010574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/CCGKit/Demo/Prefabs/DeckItemCreate.prefab
+  artifactKey: Guid(78eeb9254772b4e3fa8de4b00f2c7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Prefabs/DeckItemCreate.prefab using Guid(78eeb9254772b4e3fa8de4b00f2c7d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82339b66a787c0ccaf2cacfb24ca77d9') in 0.003290 seconds
+  Import took 0.006255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.690087 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards
+  artifactKey: Guid(2994217b0a5bd470ebafd3e9bfc5fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards using Guid(2994217b0a5bd470ebafd3e9bfc5fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2faed4528513027a4cb754dd7664669') in 0.000952 seconds
+  Import took 0.004159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.741197 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare
+  artifactKey: Guid(c670fa0a530884beaaee528a82ed743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare using Guid(c670fa0a530884beaaee528a82ed743e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf81e37376aaee07a43dfb208e3342f') in 0.000993 seconds
+  Import took 0.004354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.456416 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/CardBackground.png
+  artifactKey: Guid(465beb2700fd647ee960b956fbad19ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/CardBackground.png using Guid(465beb2700fd647ee960b956fbad19ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b909db86f89e707a25b6a7bfd970616') in 0.357189 seconds
+  Import took 0.360784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/ManaCircleBackground.png
+  artifactKey: Guid(0ab6d73dc578e4c1eba995a5f0040c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/ManaCircleBackground.png using Guid(0ab6d73dc578e4c1eba995a5f0040c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5474e5a3d3c6364ac783316fdf76337') in 0.010773 seconds
+  Import took 0.013822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/FightIcon.png
+  artifactKey: Guid(362d9d767515f41458b56dcb08f3f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/FightIcon.png using Guid(362d9d767515f41458b56dcb08f3f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94407ab1338a2bfe322f894c8229da30') in 0.008247 seconds
+  Import took 0.011459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/CardBackgroundShadow.png
+  artifactKey: Guid(53cfa69316153454e9cfca1b42255a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/CardBackgroundShadow.png using Guid(53cfa69316153454e9cfca1b42255a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dc8f704164ed782c6ed94547eb70e4') in 0.011076 seconds
+  Import took 0.014411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/ManaCircle.png
+  artifactKey: Guid(30a4687c302804bcc8a530c5f7467a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/ManaCircle.png using Guid(30a4687c302804bcc8a530c5f7467a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c374febf7a12ed18ba9f925d66fd984') in 0.009132 seconds
+  Import took 0.012212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/CardShine.png
+  artifactKey: Guid(89facc4d0dcc04594a97ea5788d6d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/CardShine.png using Guid(89facc4d0dcc04594a97ea5788d6d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb611a1b8eee478f838ba9082269d84') in 0.009992 seconds
+  Import took 0.012976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/ShieldIcon.png
+  artifactKey: Guid(16628d4bc14664c95bb24db4d00a0c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/ShieldIcon.png using Guid(16628d4bc14664c95bb24db4d00a0c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d5484ded4ccd1881789ba8dd7567f6') in 0.010016 seconds
+  Import took 0.013042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardSquare/TitleFlag.png
+  artifactKey: Guid(cb305c4b544864d6bb82ffc573d6022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardSquare/TitleFlag.png using Guid(cb305c4b544864d6bb82ffc573d6022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4c9f664992edac3eb102c04b9f6d38') in 0.009774 seconds
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.229686 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardBackground.png
+  artifactKey: Guid(5912281a226ba4c5fb6a41b7e8188b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardBackground.png using Guid(5912281a226ba4c5fb6a41b7e8188b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21567d072fba2887ed0c47c52d677e90') in 0.014030 seconds
+  Import took 0.017388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardRoundMask.png
+  artifactKey: Guid(5eedc8b4f1f3895428a2a6d27ef3e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardRoundMask.png using Guid(5eedc8b4f1f3895428a2a6d27ef3e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4db01d69fc2b2e0c1d8735a15e5fd5d') in 0.010505 seconds
+  Import took 0.014018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/TitleFlag.png
+  artifactKey: Guid(9d053f88986f6468bae019315ac57fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/TitleFlag.png using Guid(9d053f88986f6468bae019315ac57fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81696ea12d15660ecf0a86fbe37f82a9') in 0.011046 seconds
+  Import took 0.014540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardShine.png
+  artifactKey: Guid(c6a1dab8ff51e4f8e88e44a7acf81541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardShine.png using Guid(c6a1dab8ff51e4f8e88e44a7acf81541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943b36e3a44330b90e25316fa9c398cf') in 0.010862 seconds
+  Import took 0.014286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/ShieldIcon.png
+  artifactKey: Guid(cb88aff15db9b4373a2d1eeae0762156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/ShieldIcon.png using Guid(cb88aff15db9b4373a2d1eeae0762156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdfde7f6beb6f1ffd1b27d92d568e04') in 0.008533 seconds
+  Import took 0.011627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareShadow.png
+  artifactKey: Guid(496633a88d557e140af81e1b5c3c6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareShadow.png using Guid(496633a88d557e140af81e1b5c3c6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc9f6f2a8326c77b000fb6ae74a8503') in 0.010029 seconds
+  Import took 0.013254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardRoundShadow.png
+  artifactKey: Guid(e05b61996aaea57479206390ae197fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardRoundShadow.png using Guid(e05b61996aaea57479206390ae197fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8ee43d3ac233756876e30d654338bf') in 0.011892 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardShadow.png
+  artifactKey: Guid(193f7f2be3ebf45a2bc8a47b75acf4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardShadow.png using Guid(193f7f2be3ebf45a2bc8a47b75acf4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59657569a73262d28888d14c71b577c1') in 0.010524 seconds
+  Import took 0.013826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/Circle.png
+  artifactKey: Guid(e3c81d0af974d4acdaf69c9bc9187f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/Circle.png using Guid(e3c81d0af974d4acdaf69c9bc9187f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b4d12774aefdcbbb78d419d61134fb') in 0.009470 seconds
+  Import took 0.012554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield.png
+  artifactKey: Guid(0eef1f9e4003f2f4b90ca299e8934ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield.png using Guid(0eef1f9e4003f2f4b90ca299e8934ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fa3648cc4764b558213c03aa7c9590') in 0.013053 seconds
+  Import took 0.016308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/FightIcon.png
+  artifactKey: Guid(1fd343c519cba4b2c8e8fd9e0e9e6f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/FightIcon.png using Guid(1fd343c519cba4b2c8e8fd9e0e9e6f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0effe0cb358fe92875225f584a0d7cb0') in 0.008979 seconds
+  Import took 0.012125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/ShieldShadow.png
+  artifactKey: Guid(4e6d208854a7859489538b9bdbaa443e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/ShieldShadow.png using Guid(4e6d208854a7859489538b9bdbaa443e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083b288f7b210aed35c6f425dcadf5dd') in 0.010862 seconds
+  Import took 0.014313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareMask.png
+  artifactKey: Guid(f06752be71b83bb488efc6ee5611677c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareMask.png using Guid(f06752be71b83bb488efc6ee5611677c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3927d85235c511066e62ba688e2968d') in 0.008991 seconds
+  Import took 0.012310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield-Glow.png
+  artifactKey: Guid(c298866ec4f58784482a279b2aa95f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield-Glow.png using Guid(c298866ec4f58784482a279b2aa95f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3260366f2857a6c52a7c0a4bd1882f01') in 0.009995 seconds
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.978391 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardBackside/CardBackside.png
+  artifactKey: Guid(061c8c0774bf74f66860f6693d976703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardBackside/CardBackside.png using Guid(061c8c0774bf74f66860f6693d976703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc8c3d60763fd6c35c95d25d3c431d3') in 0.011775 seconds
+  Import took 0.015324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardBackside/CardBacksideShadow.png
+  artifactKey: Guid(1c73d1a12c09046d98a42221b0557a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardBackside/CardBacksideShadow.png using Guid(1c73d1a12c09046d98a42221b0557a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67880d1f792f48794dd0e71798b34159') in 0.010904 seconds
+  Import took 0.014269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.180067 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound
+  artifactKey: Guid(73f71992fb7e24d02a08e70e29f75780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound using Guid(73f71992fb7e24d02a08e70e29f75780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88aef7e4048a637e1416c7f24c695e9') in 0.000944 seconds
+  Import took 0.004301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.304702 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareShadow.png
+  artifactKey: Guid(496633a88d557e140af81e1b5c3c6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareShadow.png using Guid(496633a88d557e140af81e1b5c3c6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469968f293ab53dacc15e29a850a77b0') in 0.009990 seconds
+  Import took 0.013401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.073330 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareShadow.png
+  artifactKey: Guid(496633a88d557e140af81e1b5c3c6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/CardSquareShadow.png using Guid(496633a88d557e140af81e1b5c3c6ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c476d824347f05647d0f618977559979') in 0.012842 seconds
+  Import took 0.016435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.728761 seconds.
+  path: Assets/CCGKit/Demo/Sprites/ManaIcon/ManaAmountBackground.png
+  artifactKey: Guid(ecf3d18d0fa3b442dadca80cf53c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/ManaIcon/ManaAmountBackground.png using Guid(ecf3d18d0fa3b442dadca80cf53c2b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471bff2f96a0b3784fadb1f83cd59d56') in 0.008602 seconds
+  Import took 0.012002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/CCGKit/Demo/Sprites/ManaIcon/ManaIconGrey.png
+  artifactKey: Guid(94d0875a7c90447dea480b1412bc9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/ManaIcon/ManaIconGrey.png using Guid(94d0875a7c90447dea480b1412bc9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b6638969427ef2c22777b40569392f') in 0.009836 seconds
+  Import took 0.013039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/CCGKit/Demo/Sprites/ManaIcon/ManaIconBlue.png
+  artifactKey: Guid(e0cde42eeae8d43a9b4764d969e581a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/ManaIcon/ManaIconBlue.png using Guid(e0cde42eeae8d43a9b4764d969e581a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6b2a8596c5b755379344b94bc10524') in 0.008675 seconds
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/CCGKit/Demo/Sprites/ManaIcon/ManaAmountBackgroundSmall.png
+  artifactKey: Guid(ee13cd99d5cee42a08fb85c83fd327f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/ManaIcon/ManaAmountBackgroundSmall.png using Guid(ee13cd99d5cee42a08fb85c83fd327f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d090f2f042f332f66cdddf83a028d10') in 0.008699 seconds
+  Import took 0.011783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.926277 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/Button.png
+  artifactKey: Guid(ad2fc8966ce224d7ea8689841b119462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/Button.png using Guid(ad2fc8966ce224d7ea8689841b119462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c45d50420d81df3a60e6636e58bfcd') in 0.011157 seconds
+  Import took 0.014482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/CloseButton.png
+  artifactKey: Guid(7e593d553781e40c69b17bc3ba33a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/CloseButton.png using Guid(7e593d553781e40c69b17bc3ba33a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3d0431c90bc68fbe933fac240d09c2') in 0.010326 seconds
+  Import took 0.013351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/CloseButtonHover.png
+  artifactKey: Guid(948648e4b1b7d43429bbf5ee7a3253eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/CloseButtonHover.png using Guid(948648e4b1b7d43429bbf5ee7a3253eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90aea4c6a1d00ebc5d404d94fe380dd') in 0.009751 seconds
+  Import took 0.013047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/Shadow.png
+  artifactKey: Guid(d26a51c7e664b447b89bb352efa6e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/Shadow.png using Guid(d26a51c7e664b447b89bb352efa6e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87016b647317ebbc97a25bf613de0e8') in 0.011313 seconds
+  Import took 0.014761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/ButtonHover.png
+  artifactKey: Guid(a98c835722ed749eeb6a21fd7921120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/ButtonHover.png using Guid(a98c835722ed749eeb6a21fd7921120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6dc31d1294a3474387f2261dfd913b') in 0.011122 seconds
+  Import took 0.014382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/PopuBackground.png
+  artifactKey: Guid(2fde6a52ca751428e80e4796f5cd1518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/PopuBackground.png using Guid(2fde6a52ca751428e80e4796f5cd1518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65affd8302857b9331a910d1b5270425') in 0.011811 seconds
+  Import took 0.015023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/YourTurn.png
+  artifactKey: Guid(9c25bdc8fe78ae54ea9cd5804e4aae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/YourTurn.png using Guid(9c25bdc8fe78ae54ea9cd5804e4aae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d9c53955e1edfa4e55ab5e2758be8a') in 0.018049 seconds
+  Import took 0.021138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Popup/Line.png
+  artifactKey: Guid(29a88e3cedcc94dfcb4cf47853ecf9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Popup/Line.png using Guid(29a88e3cedcc94dfcb4cf47853ecf9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c092661d16eeb9010bcee6b20bfa1a67') in 0.008571 seconds
+  Import took 0.011652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.979803 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListScrollCover.png
+  artifactKey: Guid(2a8460c6a03a6487692d1eb814eaf62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListScrollCover.png using Guid(2a8460c6a03a6487692d1eb814eaf62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecccd089abc4255d8ce4c97e2690635a') in 0.010710 seconds
+  Import took 0.014270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/TextfieldBackground.png
+  artifactKey: Guid(d2f40955360114b679d2a22964b36497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/TextfieldBackground.png using Guid(d2f40955360114b679d2a22964b36497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77960e0081c27f39398777bf5d93738') in 0.009647 seconds
+  Import took 0.012946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/Line.png
+  artifactKey: Guid(40c5791000b654ba8816f0b33af28ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/Line.png using Guid(40c5791000b654ba8816f0b33af28ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38638c5cc515a50d8960c8185f7bbd48') in 0.008108 seconds
+  Import took 0.011385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/SideBar.png
+  artifactKey: Guid(07965c3982ac5436b8f734517c3d50be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/SideBar.png using Guid(07965c3982ac5436b8f734517c3d50be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f29524a3b906df4b0cbcaf1b349299') in 0.016169 seconds
+  Import took 0.019408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.683572 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/BackIcon.png
+  artifactKey: Guid(4d96a800a6b5d475f9a160c7d559f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/BackIcon.png using Guid(4d96a800a6b5d475f9a160c7d559f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac9b3794df74d22aa72af406780f59e') in 0.010969 seconds
+  Import took 0.014316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/SettingsIcon.png
+  artifactKey: Guid(6a616732fa3eb4f8383da2d8245f7371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/SettingsIcon.png using Guid(6a616732fa3eb4f8383da2d8245f7371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57276fadc614af74102ed2540472216c') in 0.009850 seconds
+  Import took 0.012801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/CardDeckIcon.png
+  artifactKey: Guid(49eac55c959e64ffcba364734774a5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/CardDeckIcon.png using Guid(49eac55c959e64ffcba364734774a5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f37f38a0f1d65191529d33a1c340a6b') in 0.008979 seconds
+  Import took 0.012154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/SkullIcon.png
+  artifactKey: Guid(f74fb8b4623ea4afcbf6c8e6bb4020b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/SkullIcon.png using Guid(f74fb8b4623ea4afcbf6c8e6bb4020b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2ea0e25eb7ef08e81b220534adb9a8') in 0.008700 seconds
+  Import took 0.012085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/GraveYardIcon.png
+  artifactKey: Guid(c8bf3a1462db842d28bc3ddeff2ff14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/GraveYardIcon.png using Guid(c8bf3a1462db842d28bc3ddeff2ff14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59870cb1e12eb49c92533d534606ecb3') in 0.011087 seconds
+  Import took 0.014571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/LanIcon.png
+  artifactKey: Guid(e6e83d6ebf30042c4a95a69ed958f5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/LanIcon.png using Guid(e6e83d6ebf30042c4a95a69ed958f5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44682fa74b95e7d0db8c5a665da3a583') in 0.009506 seconds
+  Import took 0.012815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/ChatIcon.png
+  artifactKey: Guid(df5b507a2b7aa44e19978824406c3131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/ChatIcon.png using Guid(df5b507a2b7aa44e19978824406c3131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45813cce88ed1059481f182da3f83d0') in 0.009239 seconds
+  Import took 0.012269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/LoadingCard.png
+  artifactKey: Guid(789e32b2d8bb947b195a9931a9bf0f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/LoadingCard.png using Guid(789e32b2d8bb947b195a9931a9bf0f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac859d9a902e71c5766d29931ff5d1a') in 0.010865 seconds
+  Import took 0.014064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/Button.png
+  artifactKey: Guid(28ecd8298f0bd4d4fbc875777cc2f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/Button.png using Guid(28ecd8298f0bd4d4fbc875777cc2f393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25600eaaa132d283083b0319bad5348') in 0.008833 seconds
+  Import took 0.011988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/CreateGameIcon.png
+  artifactKey: Guid(faa05c71b476f4d35825b110a8d8cbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/CreateGameIcon.png using Guid(faa05c71b476f4d35825b110a8d8cbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2416b130f1cdbdbb3807d15c11fed7') in 0.008476 seconds
+  Import took 0.011675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/EditIcon.png
+  artifactKey: Guid(cfb9e5cbf8d644af4afee5b4acc22bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/EditIcon.png using Guid(cfb9e5cbf8d644af4afee5b4acc22bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e192316ee636bdb8cd9afeb57bfaf46') in 0.007976 seconds
+  Import took 0.011037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/MultiplayerIcon.png
+  artifactKey: Guid(ded00aa875a854d9f9debd8263c94c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/MultiplayerIcon.png using Guid(ded00aa875a854d9f9debd8263c94c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd812e2ffa4c73c801f18f9b852d8a9') in 0.008477 seconds
+  Import took 0.011736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/LockIcon.png
+  artifactKey: Guid(bf24221110fc14a78a608fbd1cf120f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/LockIcon.png using Guid(bf24221110fc14a78a608fbd1cf120f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1f9a4d0194bd5feb63f120a4ef4d3d') in 0.009824 seconds
+  Import took 0.013152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/ButtonHover.png
+  artifactKey: Guid(f283ccf5050d243cda8d3b6a40718f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/ButtonHover.png using Guid(f283ccf5050d243cda8d3b6a40718f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c129eabb215b1100fa8bfd0c27ffe121') in 0.009858 seconds
+  Import took 0.013231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/ButtonHoverGlow.png
+  artifactKey: Guid(657bfaaf69f494dac95eb793c507c2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/ButtonHoverGlow.png using Guid(657bfaaf69f494dac95eb793c507c2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef8b59ab273e6e7702f817c1a0f0107') in 0.009534 seconds
+  Import took 0.012773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/CardsHandIcon.png
+  artifactKey: Guid(c0672b311b20247babf4cc78f9b40dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/CardsHandIcon.png using Guid(c0672b311b20247babf4cc78f9b40dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa68c0bdf8bb72678f7d7313ffb965fb') in 0.008876 seconds
+  Import took 0.012116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/FindGamesIcon.png
+  artifactKey: Guid(9f7bc7fb7d4f0435f85be8d8ae672e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/FindGamesIcon.png using Guid(9f7bc7fb7d4f0435f85be8d8ae672e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49f89b7b43d4ca11965a025d3f36583') in 0.008469 seconds
+  Import took 0.011669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/SideBar.png
+  artifactKey: Guid(9ab94cbc5091e4958854608080a7c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/SideBar.png using Guid(9ab94cbc5091e4958854608080a7c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1024f01855dfe0350324665329ad5453') in 0.015530 seconds
+  Import took 0.018522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/SinglePlayerIcon.png
+  artifactKey: Guid(819a40b4238514241baf7512ff6a2c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/SinglePlayerIcon.png using Guid(819a40b4238514241baf7512ff6a2c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb653225538e06398d9c8c9857a0115a') in 0.009605 seconds
+  Import took 0.012663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/CloseIcon.png
+  artifactKey: Guid(8d682bb932660435b9026e893ada6b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/CloseIcon.png using Guid(8d682bb932660435b9026e893ada6b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1270120294ee7b51f608849b9c6b11') in 0.008655 seconds
+  Import took 0.011704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/CreateLanGameIcon.png
+  artifactKey: Guid(879d192adc49b4e3db0fe400bf84bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/CreateLanGameIcon.png using Guid(879d192adc49b4e3db0fe400bf84bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e3ce8ddea78c21181df3771bb8b556') in 0.010005 seconds
+  Import took 0.013007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/MainIconsBackground.png
+  artifactKey: Guid(08266522b6cac4f3da91393c8cda31a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/MainIconsBackground.png using Guid(08266522b6cac4f3da91393c8cda31a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2729344d8371fd559bf0a978b0180b53') in 0.010947 seconds
+  Import took 0.014297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/PlusIcon.png
+  artifactKey: Guid(e920e40649f8047c594a1cbc2ba1f2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/PlusIcon.png using Guid(e920e40649f8047c594a1cbc2ba1f2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8269e982582dbd9119f534e03a42e2') in 0.009029 seconds
+  Import took 0.012308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Icons/TimeIcon.png
+  artifactKey: Guid(2d721efbc3aed45eebc448a2e48f67d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Icons/TimeIcon.png using Guid(2d721efbc3aed45eebc448a2e48f67d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa46ef7c06c60fcc55a44770715b927b') in 0.009018 seconds
+  Import took 0.012298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.400956 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Game/ZParticle.png
+  artifactKey: Guid(1e4e611e800e5c54d836031a241bfc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Game/ZParticle.png using Guid(1e4e611e800e5c54d836031a241bfc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e9d86f246a2bd0b2f07e55cf794eff') in 0.009681 seconds
+  Import took 0.013025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.074460 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/ButtonGlow.png
+  artifactKey: Guid(00763bc92ff2149ccbb93531b6200739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/ButtonGlow.png using Guid(00763bc92ff2149ccbb93531b6200739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689ba4e6f0fa2aef62fd0b81f125c2e7') in 0.009995 seconds
+  Import took 0.013468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/ButtonHover.png
+  artifactKey: Guid(af9bc40c2a68e464ba6b7d1b1e722e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/ButtonHover.png using Guid(af9bc40c2a68e464ba6b7d1b1e722e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6ec1d4ad74720c36b9c7745fb239e2') in 0.009180 seconds
+  Import took 0.012278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/ButtonNormal.png
+  artifactKey: Guid(b89c98d6288f842c2be9b81ad8deab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/ButtonNormal.png using Guid(b89c98d6288f842c2be9b81ad8deab3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f75f26fe1d4f98bdf8d1fe34019af3') in 0.010688 seconds
+  Import took 0.013905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.699194 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/Background.png
+  artifactKey: Guid(b1896eed0b6d4451291d3e4afdf5e1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/Background.png using Guid(b1896eed0b6d4451291d3e4afdf5e1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6c2662d36b0d05fe60d8d35b83439d') in 0.026040 seconds
+  Import took 0.029479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/LobbyCreate.png
+  artifactKey: Guid(25aa6593a306245b2bb3c4ba9ab4849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/LobbyCreate.png using Guid(25aa6593a306245b2bb3c4ba9ab4849e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb917a17953d5adc03f55c18b14a028b') in 0.021930 seconds
+  Import took 0.024958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/GameSceneBackground.png
+  artifactKey: Guid(3d47ec026fbdf824dab6792346eb0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/GameSceneBackground.png using Guid(3d47ec026fbdf824dab6792346eb0423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7784848e43e2ddfbc0e3e210d1c37b') in 0.021816 seconds
+  Import took 0.024897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/Gamefield.png
+  artifactKey: Guid(78700586137204cccab32ad7ebe6692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/Gamefield.png using Guid(78700586137204cccab32ad7ebe6692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2a946aff0356b3ff763c8df2ea25dc') in 0.014515 seconds
+  Import took 0.017920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/BackgroundHome.png
+  artifactKey: Guid(668f02a38bd5544078c26f537e562751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/BackgroundHome.png using Guid(668f02a38bd5544078c26f537e562751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db51b5073cb9d6d5dce784b0280e4815') in 0.021357 seconds
+  Import took 0.024647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/BackgroundLobby.png
+  artifactKey: Guid(1b83ea16d244a4c9cb82584e367a64da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/BackgroundLobby.png using Guid(1b83ea16d244a4c9cb82584e367a64da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a411fc7dc9f2f408036b6785e8dad62') in 0.021253 seconds
+  Import took 0.024387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/GraveyardBackground.png
+  artifactKey: Guid(feceb816b997c4ecbb2ef3c50ba645a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/GraveyardBackground.png using Guid(feceb816b997c4ecbb2ef3c50ba645a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86f84af988f0c5677d9f721d9894120') in 0.010154 seconds
+  Import took 0.013405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Background/BackgroundDeckBuilder.png
+  artifactKey: Guid(526f0d243f3e04cc68d19195c7d06f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Background/BackgroundDeckBuilder.png using Guid(526f0d243f3e04cc68d19195c7d06f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b5fee1ca87381ccff0ac05c404eeda') in 0.021213 seconds
+  Import took 0.024419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.447020 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield.png
+  artifactKey: Guid(0eef1f9e4003f2f4b90ca299e8934ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield.png using Guid(0eef1f9e4003f2f4b90ca299e8934ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e44716cd77a7deabef0567ab40d701a') in 0.010739 seconds
+  Import took 0.014156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.123743 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield.png
+  artifactKey: Guid(0eef1f9e4003f2f4b90ca299e8934ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Cards/CardRound/Shield.png using Guid(0eef1f9e4003f2f4b90ca299e8934ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4aba8c703aad7ea1a7649eb666cb92') in 0.014903 seconds
+  Import took 0.018583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2367.310869 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-Background.png
+  artifactKey: Guid(675823474351d4e9db03e4d08ec89421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-Background.png using Guid(675823474351d4e9db03e4d08ec89421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1be2f51d503f5e41e9c700cedb5437e') in 0.013624 seconds
+  Import took 0.017039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-Shadow.png
+  artifactKey: Guid(bc41c887b2ec54b1083034dad3c34932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-Shadow.png using Guid(bc41c887b2ec54b1083034dad3c34932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059da969b2fbaceeca61bdb45ed8d425') in 0.010171 seconds
+  Import took 0.013477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-Background.png
+  artifactKey: Guid(675823474351d4e9db03e4d08ec89421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-Background.png using Guid(675823474351d4e9db03e4d08ec89421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1be2f51d503f5e41e9c700cedb5437e') in 0.010765 seconds
+  Import took 0.014072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-BackgroundActive.png
+  artifactKey: Guid(05644a3ec403c4fd8b12cdda764b97b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-BackgroundActive.png using Guid(05644a3ec403c4fd8b12cdda764b97b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d81e8e23796f67b2e9e48a29aa43c2c') in 0.011586 seconds
+  Import took 0.014761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-ShineActive.png
+  artifactKey: Guid(0091c062ae88348ceb44b6d8b8c7d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerTop/Top-ShineActive.png using Guid(0091c062ae88348ceb44b6d8b8c7d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f336325ea874eaa201abcec577674d') in 0.010057 seconds
+  Import took 0.013135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.604433 seconds.
+  path: Assets/CCGKit/Demo/Sprites/TargetingArrow/target_arrow_body.png
+  artifactKey: Guid(0fa0cb94974b00445b3541b3712c4abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/TargetingArrow/target_arrow_body.png using Guid(0fa0cb94974b00445b3541b3712c4abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42764c3529edf926141421e4eef8798') in 0.009039 seconds
+  Import took 0.012406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/CCGKit/Demo/Sprites/TargetingArrow/target_arrow_head.png
+  artifactKey: Guid(76d7d20540375a445863ea109ba14359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/TargetingArrow/target_arrow_head.png using Guid(76d7d20540375a445863ea109ba14359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45700a7cb0ce865798a9f9a1705a38b2') in 0.008879 seconds
+  Import took 0.011921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/SpellImage.png
+  artifactKey: Guid(0446db0d31b8a47fc8bf769c257999a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/SpellImage.png using Guid(0446db0d31b8a47fc8bf769c257999a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75641847011e93e8c6c3060f057d5086') in 0.011045 seconds
+  Import took 0.014032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/CCGKit/Demo/Resources/Images/Spell.png
+  artifactKey: Guid(03f8138df07408f42ba048efdb182b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/Images/Spell.png using Guid(03f8138df07408f42ba048efdb182b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9294485cfc001a8d2411e36e68c0737') in 0.012759 seconds
+  Import took 0.016209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/CCGKit/Demo/Sprites/TargetingArrow/target.png
+  artifactKey: Guid(5a3a04e5ec43c4c4c9cef153be98af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/TargetingArrow/target.png using Guid(5a3a04e5ec43c4c4c9cef153be98af0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc72fe808c0aea89fdc6612bc2a64e3') in 0.009990 seconds
+  Import took 0.013369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005925 seconds.
+  path: Assets/CCGKit/Demo/Sprites/YourTurnPopup/Shine.png
+  artifactKey: Guid(dc2048d5d185c41768718247d080b39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/YourTurnPopup/Shine.png using Guid(dc2048d5d185c41768718247d080b39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec231af784c9ee4fa3073b9c1236c90') in 0.016644 seconds
+  Import took 0.020125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/ShineHover.png
+  artifactKey: Guid(4fc46ac9665e34b0fbb454fcca849af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/ShineHover.png using Guid(4fc46ac9665e34b0fbb454fcca849af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42a93d065e51f01154a7b3879dbf0f1') in 0.009141 seconds
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002886 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/Shadow.png
+  artifactKey: Guid(719c287071b4945308ea87f22f849f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/Shadow.png using Guid(719c287071b4945308ea87f22f849f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3215aac84bbe4c9a206d62e4bc20d5') in 0.008231 seconds
+  Import took 0.011539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023655 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/ScrollBar/ScrollBar.png
+  artifactKey: Guid(564caaa6ddf9296409ebc5653062483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/ScrollBar/ScrollBar.png using Guid(564caaa6ddf9296409ebc5653062483e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aabf583346f132cce481eaa43b5d7d') in 0.007970 seconds
+  Import took 0.011317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/ScrollCover.png
+  artifactKey: Guid(f7d701582449445a29e299bd87f619d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/ScrollCover.png using Guid(f7d701582449445a29e299bd87f619d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed07c2cf8a6c9f652583dfa826df01f') in 0.008765 seconds
+  Import took 0.012018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/Shadow.png
+  artifactKey: Guid(3e76b4876be9043f08b41f159d6f4c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/Shadow.png using Guid(3e76b4876be9043f08b41f159d6f4c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3c175dd95e79240b98961232f606f8') in 0.011353 seconds
+  Import took 0.014765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/RightArrowHover.png
+  artifactKey: Guid(d028aa9998fc84eaca92ea49144f89a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/RightArrowHover.png using Guid(d028aa9998fc84eaca92ea49144f89a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4065240fb4b49df124f669715c0dc41') in 0.009042 seconds
+  Import took 0.012428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/ScrollMask.png
+  artifactKey: Guid(06f3a811474664b4e94e76d51f73876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/ScrollMask.png using Guid(06f3a811474664b4e94e76d51f73876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735df0750e7ad48da17e47f84331e12c') in 0.010907 seconds
+  Import took 0.014215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/CCGKit/Demo/Sprites/YourTurnPopup/Popup.png
+  artifactKey: Guid(f6625dc7daca14f7e8e3a5d42c1057b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/YourTurnPopup/Popup.png using Guid(f6625dc7daca14f7e8e3a5d42c1057b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d888cd4277855ad5c26247bc93dbbe') in 0.012368 seconds
+  Import took 0.015728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/ScrollCoverLeft.png
+  artifactKey: Guid(809c9edf24b8d42fd9e5802e3e12fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/ScrollCoverLeft.png using Guid(809c9edf24b8d42fd9e5802e3e12fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b203a7eec1072c56d1474e1456d5807') in 0.011090 seconds
+  Import took 0.014220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/RightArrow.png
+  artifactKey: Guid(0b55d94ebab574e228ee3012b855fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/RightArrow.png using Guid(0b55d94ebab574e228ee3012b855fc51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7bc7eb51be1640387db22af0c9854e') in 0.009253 seconds
+  Import took 0.012308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/ManaIcon.png
+  artifactKey: Guid(ce0acf7e5f0c64e6c865cd2d1f7d2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/ManaIcon.png using Guid(ce0acf7e5f0c64e6c865cd2d1f7d2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce20bb8433b83d6964cdb36b1c80f872') in 0.009219 seconds
+  Import took 0.012252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/ScrollBar/ScrollBackground.png
+  artifactKey: Guid(207b78cd55b2fc04fa9b6ec2e1b984f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/ScrollBar/ScrollBackground.png using Guid(207b78cd55b2fc04fa9b6ec2e1b984f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5bf492876cad0d48af87f8ca6c6040') in 0.007590 seconds
+  Import took 0.010561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043529 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/LockIcon.png
+  artifactKey: Guid(e5946c1e244204c0aa04989f04ca857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/LockIcon.png using Guid(e5946c1e244204c0aa04989f04ca857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e31817a1959e951844014d05db44a2b') in 0.010213 seconds
+  Import took 0.013604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020522 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/LivesCircle.png
+  artifactKey: Guid(e4814b7a6f1d54885b0f2342fc0556ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/LivesCircle.png using Guid(e4814b7a6f1d54885b0f2342fc0556ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ad5e51585220c1210fa710a093786c') in 0.009023 seconds
+  Import took 0.012373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060034 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CenterGroup/Line.png
+  artifactKey: Guid(41d37d525a5384079bfed767939d97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CenterGroup/Line.png using Guid(41d37d525a5384079bfed767939d97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f236235f6af3b7e2c8c605bb183561') in 0.007326 seconds
+  Import took 0.010754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061469 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButton.png
+  artifactKey: Guid(89b6f9448ca1f4619b45a70eff4df543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButton.png using Guid(89b6f9448ca1f4619b45a70eff4df543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bad53e28dc0b93ff7dba0559036fe01') in 0.008979 seconds
+  Import took 0.012501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButtonHover.png
+  artifactKey: Guid(066684243ff894977a57cb76d970e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButtonHover.png using Guid(066684243ff894977a57cb76d970e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837389917b4542e2dcc571368cdf63c6') in 0.009652 seconds
+  Import took 0.012669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButton.png
+  artifactKey: Guid(89b6f9448ca1f4619b45a70eff4df543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButton.png using Guid(89b6f9448ca1f4619b45a70eff4df543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bad53e28dc0b93ff7dba0559036fe01') in 0.010044 seconds
+  Import took 0.013088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004894 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButtonHover.png
+  artifactKey: Guid(066684243ff894977a57cb76d970e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/JoinButtonHover.png using Guid(066684243ff894977a57cb76d970e344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837389917b4542e2dcc571368cdf63c6') in 0.010391 seconds
+  Import took 0.013839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194685 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton-Inactive.png
+  artifactKey: Guid(b15b27ad1b69643c68f6bf56782b1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton-Inactive.png using Guid(b15b27ad1b69643c68f6bf56782b1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe91d891b56f473be30c4766c2d97ac') in 0.011709 seconds
+  Import took 0.015149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckInfoBoxActive.png
+  artifactKey: Guid(0a543d0c3986647d3bc24c128e3d0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckInfoBoxActive.png using Guid(0a543d0c3986647d3bc24c128e3d0b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367c262f83954ab39a13e01c6b0bb72e') in 0.012133 seconds
+  Import took 0.015187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton-RollOverShine.png
+  artifactKey: Guid(fe0475dea245c4e83b819218f3b14b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton-RollOverShine.png using Guid(fe0475dea245c4e83b819218f3b14b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6cbad348e26295434e34e54162892c') in 0.012174 seconds
+  Import took 0.015638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnShadow.png
+  artifactKey: Guid(44081639bc66d430c9e0ede3710648f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnShadow.png using Guid(44081639bc66d430c9e0ede3710648f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7e93a3f85ed67fdb55421502aa35fb') in 0.010022 seconds
+  Import took 0.013264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton-RollOver.png
+  artifactKey: Guid(076dce4b13cdf4281a47865d1bb8763c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton-RollOver.png using Guid(076dce4b13cdf4281a47865d1bb8763c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6148bd0d3cdbb34d396a6c17c68710d5') in 0.011125 seconds
+  Import took 0.014300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/CCGKit/Demo/Resources/Images/Creature.png
+  artifactKey: Guid(728600dab0220c04f881f41974958253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Resources/Images/Creature.png using Guid(728600dab0220c04f881f41974958253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5223341cc53193d7c6bbbd807dbb2487') in 0.014137 seconds
+  Import took 0.017940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/CreateNewDeckBox.png
+  artifactKey: Guid(5ce8d3f608aee4966bddb2be0ce63393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/CreateNewDeckBox.png using Guid(5ce8d3f608aee4966bddb2be0ce63393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8675822b9c62c443adf241148f96d0') in 0.010734 seconds
+  Import took 0.014220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/CreatureImage.png
+  artifactKey: Guid(11713f87facbd43c5a0b3dd202554be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/CreatureImage.png using Guid(11713f87facbd43c5a0b3dd202554be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e522c6a71a0a5d3dcb793ecd28cc081') in 0.008382 seconds
+  Import took 0.011673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/DeleteButton.png
+  artifactKey: Guid(12a79e4b8263f419f944ae2f9ef16b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/DeleteButton.png using Guid(12a79e4b8263f419f944ae2f9ef16b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a9543f959707bd348d0aede02a13ac') in 0.008892 seconds
+  Import took 0.012056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/DeleteButtonHover.png
+  artifactKey: Guid(228994bf5d5aa4b3c843e31dc06c8db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/DeleteButtonHover.png using Guid(228994bf5d5aa4b3c843e31dc06c8db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fd5f871efb09fb3ade7d205dc7b9ea') in 0.010189 seconds
+  Import took 0.013509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListBackground.png
+  artifactKey: Guid(08f33758719f64a82b901b8fcfbc0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListBackground.png using Guid(08f33758719f64a82b901b8fcfbc0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d26d0c27770e56376e741ce7f4a44a4') in 0.010979 seconds
+  Import took 0.014119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CenterGroup/CardPlaceholder.png
+  artifactKey: Guid(1598a010312d14e039baaec6d7b15973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CenterGroup/CardPlaceholder.png using Guid(1598a010312d14e039baaec6d7b15973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142659a44df082b877cce11bacfa5e08') in 0.010524 seconds
+  Import took 0.013552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton.png
+  artifactKey: Guid(8c27d6d788d7347f6813ec1bb631409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Buttons/EndTurnButton/EndTurnButton.png using Guid(8c27d6d788d7347f6813ec1bb631409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c80e760fbf4970989f89257a0ee5cf') in 0.010317 seconds
+  Import took 0.013393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckInfoBox.png
+  artifactKey: Guid(959a6a53970794082850914fbcf6ff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckInfoBox.png using Guid(959a6a53970794082850914fbcf6ff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189646e94c0d898bcc4191d66fd112ba') in 0.010091 seconds
+  Import took 0.013113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/Buttons/CreateCancelButtonHover.png
+  artifactKey: Guid(08635587d2af44ff6b240d58b6f78d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/Buttons/CreateCancelButtonHover.png using Guid(08635587d2af44ff6b240d58b6f78d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cee64147f760b84abc7a875278ffcb2') in 0.009706 seconds
+  Import took 0.012828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/Checkbox/Checked.png
+  artifactKey: Guid(ca711f3ff0ec843bfb9a15ff6e39b584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/Checkbox/Checked.png using Guid(ca711f3ff0ec843bfb9a15ff6e39b584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef5c6b8c2a51e01d78269aeec4dc4ec') in 0.008098 seconds
+  Import took 0.011394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckBoxDeleteButton.png
+  artifactKey: Guid(29063e39b38e64557a590bf362d0478c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckBoxDeleteButton.png using Guid(29063e39b38e64557a590bf362d0478c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326246fa68acafce79c75ee2d034c059') in 0.009355 seconds
+  Import took 0.012427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/Buttons/ButtonHover.png
+  artifactKey: Guid(bc8a291ef852f4b798b99894a9989359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/Buttons/ButtonHover.png using Guid(bc8a291ef852f4b798b99894a9989359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85da4dc3a8f7ebcbef30cbfc79a86a2') in 0.012351 seconds
+  Import took 0.015476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonDoneHover.png
+  artifactKey: Guid(cfa5826d2851c463292e7f1665a37b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonDoneHover.png using Guid(cfa5826d2851c463292e7f1665a37b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a81d39df6af961a8e9eb0bc254fd5e') in 0.010427 seconds
+  Import took 0.013675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonCreateNormal.png
+  artifactKey: Guid(883626ce1b8c74c0cb3f65f438c2d72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonCreateNormal.png using Guid(883626ce1b8c74c0cb3f65f438c2d72f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0eaef5b0e46d70b29f51e650664b15b') in 0.009199 seconds
+  Import took 0.012290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonDoneNormal.png
+  artifactKey: Guid(1078780593a734875b3882b576bb9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonDoneNormal.png using Guid(1078780593a734875b3882b576bb9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fcf072a670a9e5ac420aca63bcc144') in 0.009047 seconds
+  Import took 0.012660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-ShineActive.png
+  artifactKey: Guid(3c34ff231e3534badaf8d22e717968d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-ShineActive.png using Guid(3c34ff231e3534badaf8d22e717968d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c749e03c4e4363df20a2149ad7d9a45') in 0.011840 seconds
+  Import took 0.015080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/BlueAvatar.png
+  artifactKey: Guid(e408665e7e02a4118926415bcc4de4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/BlueAvatar.png using Guid(e408665e7e02a4118926415bcc4de4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0a16a83356b54686a4a9e8ba16b04c') in 0.011678 seconds
+  Import took 0.014801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-Background.png
+  artifactKey: Guid(d7e573df3b70b4a3fb0c3ea896df7a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-Background.png using Guid(d7e573df3b70b4a3fb0c3ea896df7a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d62898f5d3ae3ba68182a166a6c90ac') in 0.011498 seconds
+  Import took 0.014840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonCreateHover.png
+  artifactKey: Guid(9a4850f5b591c430fa261f72afa63a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ButtonCreateHover.png using Guid(9a4850f5b591c430fa261f72afa63a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deca99c30dfc29ac615f6d37bbd510a') in 0.009397 seconds
+  Import took 0.012625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/BrownAvatar.png
+  artifactKey: Guid(96e28565c7b604e52bc451458ee1b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/BrownAvatar.png using Guid(96e28565c7b604e52bc451458ee1b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688465f3ac0ee774d4c907e03ffe50d7') in 0.012863 seconds
+  Import took 0.015939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/BlackBackground.png
+  artifactKey: Guid(df3a6d186ee6c4fbbaef3156c5c02021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/BlackBackground.png using Guid(df3a6d186ee6c4fbbaef3156c5c02021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2937e8b9cb06cab6cb5a40ddd1d241bc') in 0.009422 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/BlackArrowLeft.png
+  artifactKey: Guid(d114804f4529d442f81cd8e29284d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/BlackArrowLeft.png using Guid(d114804f4529d442f81cd8e29284d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00931a8748ce77bb91be7fb028921c60') in 0.008850 seconds
+  Import took 0.012515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/Checkbox/Background.png
+  artifactKey: Guid(fcad41a9913f5488c84c2f9e4de8611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/Checkbox/Background.png using Guid(fcad41a9913f5488c84c2f9e4de8611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f43903b6f46cac9240c09a02851efc') in 0.009061 seconds
+  Import took 0.012175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/Background.png
+  artifactKey: Guid(e4b94907ed6b34e0ca57f89b5aea9703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/Background.png using Guid(e4b94907ed6b34e0ca57f89b5aea9703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ea1ed1eed3c9bb58370447beb70aa1') in 0.008284 seconds
+  Import took 0.011703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/BackgroundHover.png
+  artifactKey: Guid(548107d86a0f6438d9394ae6e193e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/GameListItem/BackgroundHover.png using Guid(548107d86a0f6438d9394ae6e193e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df164c4bd87723dab8d0a71757ff11b') in 0.008922 seconds
+  Import took 0.012207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarBlue.png
+  artifactKey: Guid(0872fc4ae1fd46e4cb1fb52c98f294f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarBlue.png using Guid(0872fc4ae1fd46e4cb1fb52c98f294f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158b7690ae2f39b4bed713814bafc356') in 0.012035 seconds
+  Import took 0.015086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarRed.png
+  artifactKey: Guid(1e3135e573ad42044a204b886a4b3aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarRed.png using Guid(1e3135e573ad42044a204b886a4b3aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c759fe0b8d859cd80a1b94c41063124') in 0.011846 seconds
+  Import took 0.014929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarBorderActive.png
+  artifactKey: Guid(efc11bbf898414b7c8a8bb7c5cbe8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarBorderActive.png using Guid(efc11bbf898414b7c8a8bb7c5cbe8e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd85ff6b77b580dc024fedf14b8b700b') in 0.011833 seconds
+  Import took 0.015023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-BackgroundActive.png
+  artifactKey: Guid(f68046d0dbf0040c08ec7add2fbf7a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-BackgroundActive.png using Guid(f68046d0dbf0040c08ec7add2fbf7a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b62e2646ea30acb90d1fc0a92f9584') in 0.011649 seconds
+  Import took 0.014834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarBorder.png
+  artifactKey: Guid(2ba15b25220e14b78bfe86f3c2541b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarBorder.png using Guid(2ba15b25220e14b78bfe86f3c2541b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffa709ab747d8f5215a326d1ee06602') in 0.011367 seconds
+  Import took 0.014367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowLeftHover.png
+  artifactKey: Guid(9c0b0fabad55a41e3a90da9aaeb76a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowLeftHover.png using Guid(9c0b0fabad55a41e3a90da9aaeb76a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e044fd369958a187412288499601bd30') in 0.008759 seconds
+  Import took 0.012012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowLeft.png
+  artifactKey: Guid(3bb23c2e4cb554e5f96ef3e5fc99eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowLeft.png using Guid(3bb23c2e4cb554e5f96ef3e5fc99eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b11e12aa35bb5420cf72f4feb78ed0') in 0.008239 seconds
+  Import took 0.011350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowLeftGlow.png
+  artifactKey: Guid(ff59e40e500dd4c37870f7ca85e1579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowLeftGlow.png using Guid(ff59e40e500dd4c37870f7ca85e1579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6a03273b0ed2870e4d8bfe436c7419') in 0.010231 seconds
+  Import took 0.013233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/Border.png
+  artifactKey: Guid(fed30a6ae9c484ab5a2d73e7b623cba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem/Border.png using Guid(fed30a6ae9c484ab5a2d73e7b623cba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab86cd5ab859be599701a3eba1d8ec3f') in 0.008365 seconds
+  Import took 0.011599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-Shadow.png
+  artifactKey: Guid(846d9bc45049845abb3d285c222b3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/PlayerBottom/Bottom-Shadow.png using Guid(846d9bc45049845abb3d285c222b3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ddead82a1ff1a484417062316373bb') in 0.011074 seconds
+  Import took 0.014470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowRightGlow.png
+  artifactKey: Guid(bb3cd0d7d9d4f47309157498723c933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ArrowRightGlow.png using Guid(bb3cd0d7d9d4f47309157498723c933b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630c5654af459e848409b3ec729219d0') in 0.010953 seconds
+  Import took 0.014338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckBoxDeleteButtonHover.png
+  artifactKey: Guid(b7df0875e38b64524a49189ea7ccfffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/DeckInfoBoxes/DeckBoxDeleteButtonHover.png using Guid(b7df0875e38b64524a49189ea7ccfffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de5215cc077d2296190ca65ff9ece92') in 0.008885 seconds
+  Import took 0.012054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarAvtiveShine.png
+  artifactKey: Guid(a5d04e94c35814012ac457cb444476a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/PlayerBackgrounds/Avatar/AvatarAvtiveShine.png using Guid(a5d04e94c35814012ac457cb444476a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a521f4e68e36df751297ea61baaad0') in 0.011357 seconds
+  Import took 0.014637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CenterGroup/CardsAmountBackground.png
+  artifactKey: Guid(9a03abcbd449942af90854e2070e13a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CenterGroup/CardsAmountBackground.png using Guid(9a03abcbd449942af90854e2070e13a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1941290b90c43a33ec1f0ec38655e32c') in 0.009802 seconds
+  Import took 0.013361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/Buttons/Button.png
+  artifactKey: Guid(f63058e0728cf4c61897505036ac96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/Buttons/Button.png using Guid(f63058e0728cf4c61897505036ac96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd999f43c896a87142338d4a376a05a49') in 0.008340 seconds
+  Import took 0.011597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 448.230071 seconds.
+  path: Assets/CCGKit/Demo/Sprites/Lobby/Buttons/CreateCancelButton.png
+  artifactKey: Guid(27284b3bbd36044f5ad9de22605b13dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/Lobby/Buttons/CreateCancelButton.png using Guid(27284b3bbd36044f5ad9de22605b13dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dde725c66d32f89a8c9d7bb07f19d6') in 0.009477 seconds
+  Import took 0.013034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075907 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ClearButton.png
+  artifactKey: Guid(2e9cdabd08c1f41b3835fb3ab02e0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ClearButton.png using Guid(2e9cdabd08c1f41b3835fb3ab02e0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a8b4dd1b030aa3ae8b0bc7d25dbe6d') in 0.008439 seconds
+  Import took 0.012032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ClearButton.png
+  artifactKey: Guid(2e9cdabd08c1f41b3835fb3ab02e0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/Buttons/ClearButton.png using Guid(2e9cdabd08c1f41b3835fb3ab02e0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a8b4dd1b030aa3ae8b0bc7d25dbe6d') in 0.008690 seconds
+  Import took 0.012093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.791898 seconds.
+  path: Assets/CCGKit/Demo/Scripts/Game
+  artifactKey: Guid(89449ee74dceaae408bb7e070f04405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Scripts/Game using Guid(89449ee74dceaae408bb7e070f04405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dc448b7b2e21b18147c777930d3dde') in 0.000952 seconds
+  Import took 0.004254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/CCGKit/Demo/Scripts/Game
+  artifactKey: Guid(89449ee74dceaae408bb7e070f04405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Scripts/Game using Guid(89449ee74dceaae408bb7e070f04405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dc448b7b2e21b18147c777930d3dde') in 0.000813 seconds
+  Import took 0.004207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.834500 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList
+  artifactKey: Guid(d067039f307a344e991622bb215d1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList using Guid(d067039f307a344e991622bb215d1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e837c18325f59a5ec710e76c61e8f6d') in 0.000947 seconds
+  Import took 0.004317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList
+  artifactKey: Guid(d067039f307a344e991622bb215d1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList using Guid(d067039f307a344e991622bb215d1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e837c18325f59a5ec710e76c61e8f6d') in 0.000797 seconds
+  Import took 0.003722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.590630 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem
+  artifactKey: Guid(ecdbaab0df1b846af8e051f7d694f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem using Guid(ecdbaab0df1b846af8e051f7d694f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc164ddeccd15f3cec374cd1dee3316') in 0.000932 seconds
+  Import took 0.004618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000809 seconds.
+  path: Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem
+  artifactKey: Guid(ecdbaab0df1b846af8e051f7d694f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CCGKit/Demo/Sprites/DeckBuilder/CardList/CardListItem using Guid(ecdbaab0df1b846af8e051f7d694f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc164ddeccd15f3cec374cd1dee3316') in 0.000764 seconds
+  Import took 0.003735 seconds .
 
